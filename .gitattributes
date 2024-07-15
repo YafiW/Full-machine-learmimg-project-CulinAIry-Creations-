@@ -1,0 +1,4 @@
+*.largefileextension filter=lfs diff=lfs merge=lfs -text
+Backend/Files/*.csv filter=lfs diff=lfs merge=lfs -text
+Backend/Step_3/cGAN_models/*.h5 filter=lfs diff=lfs merge=lfs -text
+Backend/Models/*.h5 filter=lfs diff=lfs merge=lfs -text

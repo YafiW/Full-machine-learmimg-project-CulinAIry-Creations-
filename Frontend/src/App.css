@@ -1,0 +1,76 @@
+.categories {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+   flex-direction: column;
+  align-items: flex-start;
+  z-index: 9999; 
+}
+
+
+.categories button {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+} 
+.content {
+  flex: 1; 
+  margin-right: 120px;
+  margin-left: 50px; 
+  margin-top: 10px; 
+
+}
+
+.ms-1{
+  font-size: x-large;
+  color: white;
+  font-style: inherit;
+  font-weight: bold;
+}
+.col-auto{
+  /* background-color: rgb(8, 236, 8); */
+  background-color: rgb(26, 167, 26);
+}
+/* App.css */
+.dropdown-content {
+  position: absolute;
+  background-color: rgb(235, 231, 7);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+}
+.ingredient{
+  color:  rgb(235, 231, 7);
+}
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.dropdown-content li:hover {
+  background-color: rgb(187, 184, 4);
+  border-radius: 10px;
+
+}
+.btn-sending{
+  font-weight: bold;
+  color: white;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}

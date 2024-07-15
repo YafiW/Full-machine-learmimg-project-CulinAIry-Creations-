@@ -1,0 +1,25 @@
+.fruitImage {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    /* Ensure relative positioning for the button */
+}
+
+.gifOverlay {
+    position: absolute;
+    /* Position the overlay absolutely relative to the button */
+    top: 50%;
+    /* Align the overlay vertically at 50% of the button's height */
+    left: 50%;
+    /* Align the overlay horizontally at 50% of the button's width */
+    transform: translate(-50%, -50%);
+    /* Translate the overlay by -50% of its own width and height */
+    width: 100px;
+    /* Ensure the overlay covers the entire width of the button */
+    height: 100px;
+    /* Ensure the overlay covers the entire height of the button */
+    z-index: 1;
+    /* Ensure the overlay appears above the product image */
+}
